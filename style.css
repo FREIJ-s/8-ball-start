@@ -1,0 +1,82 @@
+.page {
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #0a0a0a;
+  margin: 0px;
+  padding: 0px;
+  background-color: #3b5708;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+header span {
+  font-size: 60px;
+  font-size: 2em;
+  color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ball {
+position: relative;
+}
+.ball img{
+  width: 100%;
+  max-width: 40em;
+}
+.answer {
+  color: blanchedalmond;
+  text-transform: uppercase;
+  margin: 8;
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  width: 11%;
+  font-size: 80%;
+}
+
+#questionButton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-size: 1.875em;
+  color: #f8f8f8;
+  background-color: #000000;
+  border-radius: 5px;
+  border: none;
+  padding: .5em 1em;
+  width: 80%;
+  max-width: 15em;
+  margin-top: 1em;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: .75em;
+}
+
+
+.answerside{
+  background-image: url('images/answerside.png');
+}
+
+.questionside{
+  background-image: url('images/questionside.png');
+}
+
+#eight_ball {
+  height: 600px;
+  width: 700px;
+  background-repeat: no-repeat  ;
+  background-position: center;
+  margin: auto;
+}
